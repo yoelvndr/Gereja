@@ -54,13 +54,10 @@ jQuery(document).ready(function ($) {
         loop: true,
         dots: true,
         nav: false,
-        navText: [
-            "<i class='lnr lnr-chevron-left'></i>",
-            "<i class='lnr lnr-chevron-right'></i>"
-        ],
+      
         autoplayHoverPause: true
 
-    });
+    });	
 
     $('.main_testimonial_content').owlCarousel({
         responsiveClass: true,
